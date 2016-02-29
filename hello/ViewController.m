@@ -23,5 +23,33 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)popup:(id)sender {
+    UIAlertController * alert=   [UIAlertController
+                                  alertControllerWithTitle:@"Sayonara Baby!"
+                                  message:@"Hello World!"
+                                  preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* yesButton = [UIAlertAction
+                                actionWithTitle:@"OK"
+                                style:UIAlertActionStyleDefault
+                                handler:^(UIAlertAction * action)
+                                {
+                                    nil;
+                                    
+                                }];
+    UIAlertAction* noButton = [UIAlertAction
+                               actionWithTitle:@"CANCEL"
+                               style:UIAlertActionStyleDefault
+                               handler:^(UIAlertAction * action)
+                               {
+                                   nil;
+                               }];
+    
+    [alert addAction:yesButton];
+    [alert addAction:noButton];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+}
+
 
 @end
