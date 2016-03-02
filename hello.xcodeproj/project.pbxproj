@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CB8C6E91C86128D00B068B5 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8C6E61C86128D00B068B5 /* ListTableViewCell.m */; };
+		4CB8C6EA1C86128D00B068B5 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB8C6E81C86128D00B068B5 /* ListViewController.m */; };
 		4CEDFAA51C7DFC22009C3A4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDFAA41C7DFC22009C3A4E /* main.m */; };
 		4CEDFAA81C7DFC22009C3A4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDFAA71C7DFC22009C3A4E /* AppDelegate.m */; };
 		4CEDFAAB1C7DFC22009C3A4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEDFAAA1C7DFC22009C3A4E /* ViewController.m */; };
@@ -16,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CB8C6E51C86128D00B068B5 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListTableViewCell.h; path = hello/ListTableViewCell.h; sourceTree = "<group>"; };
+		4CB8C6E61C86128D00B068B5 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTableViewCell.m; path = hello/ListTableViewCell.m; sourceTree = "<group>"; };
+		4CB8C6E71C86128D00B068B5 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListViewController.h; path = hello/ListViewController.h; sourceTree = "<group>"; };
+		4CB8C6E81C86128D00B068B5 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListViewController.m; path = hello/ListViewController.m; sourceTree = "<group>"; };
 		4CEDFAA01C7DFC22009C3A4E /* hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEDFAA41C7DFC22009C3A4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CEDFAA61C7DFC22009C3A4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +48,10 @@
 		4CEDFA971C7DFC22009C3A4E = {
 			isa = PBXGroup;
 			children = (
+				4CB8C6E51C86128D00B068B5 /* ListTableViewCell.h */,
+				4CB8C6E61C86128D00B068B5 /* ListTableViewCell.m */,
+				4CB8C6E71C86128D00B068B5 /* ListViewController.h */,
+				4CB8C6E81C86128D00B068B5 /* ListViewController.m */,
 				4CEDFAA21C7DFC22009C3A4E /* hello */,
 				4CEDFAA11C7DFC22009C3A4E /* Products */,
 			);
@@ -149,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB8C6EA1C86128D00B068B5 /* ListViewController.m in Sources */,
 				4CEDFAAB1C7DFC22009C3A4E /* ViewController.m in Sources */,
+				4CB8C6E91C86128D00B068B5 /* ListTableViewCell.m in Sources */,
 				4CEDFAA81C7DFC22009C3A4E /* AppDelegate.m in Sources */,
 				4CEDFAA51C7DFC22009C3A4E /* main.m in Sources */,
 			);
@@ -300,6 +312,7 @@
 				4CEDFAB91C7DFC22009C3A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
